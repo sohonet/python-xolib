@@ -12,7 +12,7 @@ setup(
     description='Helper library for interfacing with xo-server.',
     long_description=open('README.rst').read(),
     install_requires=[
-        "websocket-client==0.37.0",
+        "websocket-client",
         "six",
         "pysynthetic"
     ],

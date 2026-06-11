@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='xolib',
-    version='0.2.3',
+    version='0.3.0',
     author='Vyronas Tsingaras',
     author_email='vyronas@vtsingaras.me',
     packages=['xolib'],
@@ -14,6 +14,5 @@ setup(
     install_requires=[
         "websocket-client",
         "six",
-        "pysynthetic"
     ],
 )

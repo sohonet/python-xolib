@@ -1,5 +1,4 @@
 import websocket
-from synthetic import synthesize_property
 import six
 import json
 import uuid
@@ -21,13 +20,13 @@ class XoApiError(XoError):
         self.msg = msg
 
 
-@synthesize_property('timeout', contract=int, default=10)
 class xo:
     """ xo-server helper class """
 
     def __init__(self, server, email=None, password=None, token=None, learn_methods=True):
         if server is None:
             raise Exception()
+        self.timeout = 10
         self._server = server + '/api/'
         self._email = email
         self._password = password

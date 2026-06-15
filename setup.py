@@ -7,7 +7,6 @@ setup(
     author_email='vyronas@vtsingaras.me',
     packages=['xolib'],
     url='https://github.com/vtsingaras/python-xolib',
-    download_url='https://github.com/vtsingaras/python-xolib/archive/v0.2.3.tar.gz',
     license='LICENSE.txt',
     description='Helper library for interfacing with xo-server.',
     long_description=open('README.rst').read(),
